@@ -33,7 +33,6 @@ publish-config-to-instance:
   script:
     # Run the script that prepares the payload with config changes with required variables
     # - ./prepare-payload.sh ${CTRL_IP} ${AUTH_TOKEN} ${SYSTEM_UID} ${NGINX_UID}
-    # - ./prepare-payload.sh 20.254.65.35 WRtaW46amNVcFFNNlFPQ3pKTWU0aXZSY0VWa2Q1NGdTTElL c0d4564c-3c11-3eb7-b977-5a564a9e31a0 6df3f8f6-0731-5478-b495-f364d3ee1230
   only:
     <<: *_run_only_when_change_in_instance_directory
   needs: []
