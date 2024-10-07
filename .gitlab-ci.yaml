@@ -20,7 +20,7 @@ variables:
   # Nginx UID of the instance
   NGINX_UID: 6df3f8f6-0731-5478-b495-f364d3ee1230
   # Instance group UID
-  GROUP_UID: 833d000d-295b-5a0c-b1a6-90b54a9acb71
+  GROUP_UID: da439812-30e2-4656-9d2c-20ec77c7e7ef
 
 ._run_only_when_change_in_instance_directory: &_run_only_when_change_in_instance_directory
   changes:
